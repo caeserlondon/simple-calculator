@@ -6,4 +6,6 @@ been deployed on NETLIFY:
 
 <https://simple-calculator-caeser.netlify.app/>
 
-![calculator site image](calculator-min.png)
+<a href="/calculator-site.png" target="_blank">Calolator on Netlify</a>
+
+![calculator site image](calculator-site.png)
