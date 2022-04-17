@@ -1,8 +1,6 @@
 let display_section = document.getElementById("display");
 let buttons = Array.from(document.getElementsByClassName("button"));
 
-// console.log(buttons);
-
 buttons.map((button) => {
 	button.addEventListener("click", (el) => {
 		doCalculate(el);
@@ -10,8 +8,6 @@ buttons.map((button) => {
 });
 
 function doCalculate(e) {
-	// console.log(e.target);
-
 	if (display_section.innerText == "0") {
 		display_section.innerText = "";
 	}
